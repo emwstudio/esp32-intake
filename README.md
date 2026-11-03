@@ -4,6 +4,19 @@
 
 这是一个用于家庭局域网演示的饮食记录项目。App 强调先测量、再确认是否计入，屏幕则用圆环和颜色提醒当前摄入状态。
 
+## Demo
+
+<table>
+  <tr>
+    <td align="center"><strong>iOS App</strong></td>
+    <td align="center"><strong>ESP32 屏幕</strong></td>
+  </tr>
+  <tr>
+    <td><img src="docs/images/demo-app.png" alt="iOS App 热量摄入圆环" width="300"></td>
+    <td><img src="docs/images/demo-hardware.jpg" alt="安装在咖啡机上的 ESP32 热量提醒屏" width="360"></td>
+  </tr>
+</table>
+
 ## 功能
 
 ### iOS App

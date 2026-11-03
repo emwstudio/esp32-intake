@@ -1,0 +1,22 @@
+name: CalorieIntake
+options:
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  CalorieIntake:
+    type: application
+    platform: iOS
+    configFiles:
+      Debug: Config/Secrets.xcconfig
+      Release: Config/Secrets.xcconfig
+    sources:
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.emwstudio.CalorieIntake
+        INFOPLIST_FILE: Sources/Info.plist
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: N5AZFWXT88
+        ENABLE_USER_SCRIPT_SANDBOXING: YES

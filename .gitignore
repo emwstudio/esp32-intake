@@ -1,0 +1,11 @@
+.DS_Store
+.pio/
+.pio
+firmware/.pio/
+firmware/.official/
+firmware/include/Secrets.h
+ios/CalorieIntake/Config/Secrets.xcconfig
+ios/CalorieIntake/DerivedData/
+ios/CalorieIntake/build/
+*.xcuserstate
+xcuserdata/
